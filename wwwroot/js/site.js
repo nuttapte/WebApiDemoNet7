@@ -74,7 +74,7 @@ function updateItem() {
   const EGENRE = document.getElementById('EGENRE');
   const EPRICE = document.getElementById('EPRICE');
 
-  const item = {
+  const eitem = {
     id: EID.value.trim(),
     title: ETITLE.value.trim(),
     releaseDate: ERELDT.value.trim(),
@@ -82,9 +82,15 @@ function updateItem() {
     price: EPRICE.value.trim()
   };
 
+  document.getElementById('ID').value = eitem.id;
+  document.getElementById('TITLE').value = eitem.title;
+  document.getElementById('RELDT').value = eitem.releaseDate;
+  document.getElementById('GENRE').value = eitem.genre;
+  document.getElementById('PRICE').value = eitem.price;
+
   const eluri = "https://localhost:7053/DeleteMovie";
 
-  fetch(`${eluri}/${item.id}`, {
+  fetch(`${eluri}/${eitem.id}`, {
     method: 'PUT',
     headers: {
       'Accept': 'application/json',
