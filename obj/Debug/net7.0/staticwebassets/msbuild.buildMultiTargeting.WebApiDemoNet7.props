@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebApiDemoNet7.props" />
+</Project>
