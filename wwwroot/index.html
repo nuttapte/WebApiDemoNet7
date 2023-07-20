@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>To-do CRUD</title>
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <h1>To-do CRUD</h1>
+    <h3>Add</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+        <label for="html">ID           :</label><input type="text" id="ID" placeholder="Id"><br/>
+        <label for="html">TITLE        :</label><input type="text" id="TITLE" placeholder="Title Name"><br/>
+        <label for="html">RELEASE DATE :</label><input type="text" id="RELDT" placeholder="Release Date"><br/>
+        <label for="html">GENRE        :</label><input type="text" id="GENRE" placeholder="Genre"><br/>
+        <label for="html">PRICE        :</label><input type="text" id="PRICE" placeholder="Price"><input type="submit" value="Add">
+    </form>
+
+    <div id="editForm">
+        <h3>Edit</h3>
+        <form action="javascript:void(0);" onsubmit="updateItem()">
+            <label for="html">ID           :</label><input type="text" id="EID" placeholder="Id"><br/>
+            <label for="html">TITLE        :</label><input type="text" id="ETITLE"><br/>
+            <label for="html">RELEASE DATE :</label><input type="text" id="ERELDT"><br/>
+            <label for="html">GENRE        :</label><input type="text" id="EGENRE"><br/>
+            <label for="html">PRICE        :</label><input type="text" id="EPRICE">
+            <input type="submit" value="Save">
+            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+    <p id="counter"></p>
+
+    <table>
+        <tr>
+            <th>id</th>
+            <th>title</th>
+            <th>releaseDate</th>
+            <th>genre</th>
+            <th>price</th>
+            <th>delete</th>
+            <th>edit</th>
+        </tr>
+        <tbody id="todos"></tbody>
+    </table>
+
+    <script src="js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getItems();
+    </script>
+</body>
+</html>

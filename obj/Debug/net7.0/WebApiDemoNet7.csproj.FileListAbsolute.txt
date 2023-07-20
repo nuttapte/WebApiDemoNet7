@@ -41,3 +41,4 @@ D:\DotNetApi\WebApiDemoNet7\bin\Debug\net7.0\Mono.TextTemplating.dll
 D:\DotNetApi\WebApiDemoNet7\bin\Debug\net7.0\MySqlConnector.dll
 D:\DotNetApi\WebApiDemoNet7\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
 D:\DotNetApi\WebApiDemoNet7\bin\Debug\net7.0\System.CodeDom.dll
+D:\DotNetApi\WebApiDemoNet7\bin\Debug\net7.0\WebApiDemoNet7.staticwebassets.runtime.json

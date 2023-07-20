@@ -1,11 +1,71 @@
 {
   "Version": 1,
-  "Hash": "8tdCpEWEW8IHl+82cIhE1eiFR8vRpqXOJBFiEinhF24=",
+  "Hash": "NALSFAPEY63y58J3V5bnX7VWB1Hzv/69W4dAVYat9fI=",
   "Source": "WebApiDemoNet7",
   "BasePath": "_content/WebApiDemoNet7",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApiDemoNet7\\wwwroot",
+      "Source": "WebApiDemoNet7",
+      "ContentRoot": "D:\\DotNetApi\\WebApiDemoNet7\\wwwroot\\",
+      "BasePath": "_content/WebApiDemoNet7",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\DotNetApi\\WebApiDemoNet7\\wwwroot\\css\\site.css",
+      "SourceId": "WebApiDemoNet7",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DotNetApi\\WebApiDemoNet7\\wwwroot\\",
+      "BasePath": "_content/WebApiDemoNet7",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\DotNetApi\\WebApiDemoNet7\\wwwroot\\index.html",
+      "SourceId": "WebApiDemoNet7",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DotNetApi\\WebApiDemoNet7\\wwwroot\\",
+      "BasePath": "_content/WebApiDemoNet7",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\DotNetApi\\WebApiDemoNet7\\wwwroot\\js\\site.js",
+      "SourceId": "WebApiDemoNet7",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DotNetApi\\WebApiDemoNet7\\wwwroot\\",
+      "BasePath": "_content/WebApiDemoNet7",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
 }

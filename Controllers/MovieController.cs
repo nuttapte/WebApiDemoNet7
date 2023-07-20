@@ -95,6 +95,19 @@ namespace WebApiDemoNet7.Controllers
 
 
         }
+
+        [HttpDelete("/DeleteMovie/{id}")]
+        public async Task<ActionResult<Movie>> DeleteMovie(int id)
+        {
+            var movie = await _context.Movie.FindAsync(id);
+            if (movie == null)
+            {
+                return NotFound();
+            }
+            _context.Movie.Remove(movie);
+            await _context.SaveChangesAsync();
+            return movie;
+        }
     }
 }
 
